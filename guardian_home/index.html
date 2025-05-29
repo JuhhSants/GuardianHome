@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Guardian Home</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Guardian Home</div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="link">Home</a></li>
+                <li><a href="login-cadastro/login.html" class="link">Login</a></li>
+                <li><a href="#" class="link">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="tech-circle">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+
+        <div class="list">
+            <div class="item active">
+                <div class="product-img">
+                    <img src="img/img2.png" alt="Câmera de segurança">
+                </div>
+
+                <div class="content">
+                    <p class="product-tag">Novo lançamento</p>
+                    <p class="product-name">Câmera de segurança</p>
+                    <p class="description">
+                        A câmera do sistema Guardian Home será integrada ao ambiente 
+                        residencial para realizar a vigilância contínua de áreas estratégicas.
+                    </p>
+
+                    <button class="btn">Saiba mais</button>
+                </div>
+
+            </div>
+
+            <div class="item">
+                <div class="product-img">
+                    <img src="img/img3.png" alt="Sensor">
+                </div>
+
+                <div class="content">
+                    <p class="product-tag">Novo lançamento</p>
+                    <p class="product-name">Sensor</p>
+                    <p class="description">
+                        O sistema contará com sensores inteligentes capazes de detectar movimento e
+                        interações físicas no ambiente monitorado.A proposta é oferecer um hardware 
+                        acessível, com fácil instalação e manutenção, sem comprometer a confiabilidade da segurança.
+                    </p>
+
+                    <button class="btn">Saiba mais</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="product-img">
+                    <img src="img/img1.png" alt="Aplicativo">
+                </div>
+
+                <div class="content">
+                    <p class="product-tag">Novo lançamento</p>
+                    <p class="product-name">Aplicativo</p>
+                    <p class="description">
+                        O app Guardian Home permitirá que o usuário monitore sua residência 
+                        de forma remota e prática. É a central de comando da segurança na palma da mão.
+                    </p>
+
+                    <button class="btn">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrows">
+            <button class="arrow-btn" id="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-caret-left-fill"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+                </svg>
+            </button>
+
+            <button class="arrow-btn" id="next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
+                    class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                    <path
+                        d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                </svg>
+            </button>
+        </div>
+
+        <div class="indicators">
+            <div class="numbers">01</div>
+            <div class="dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
